@@ -1,42 +1,27 @@
-@import url(font-awesome.min.css);
-
 /*
-=======================================================
-COPYRIGHT NOTICE
-=======================================================
-The website design is based on MASSIVELY designed by
-AJ of www.html5up.net, which has been
-released under the Creative Commons 3.0 license.
-=======================================================
-I modified the design substantially to my own purposes.
-=======================================================
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 /* Wrapper */
 
 	#wrapper {
-		background-color: #212931;
-		background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
-		background-size: auto,								auto,														100% auto;
-		background-position: center,								center,														top center;
-		background-repeat: repeat,								no-repeat,													no-repeat;
-		background-attachment: fixed,								fixed,														fixed;
+		opacity: 1 !important;
 	}
 
-		#wrapper.fade-in:before {
-			display: none;
-		}
+/* Overlay */
 
-/* Intro */
-
-	body.is-loading #intro {
-		opacity: 1;
+	#overlay {
+		opacity: 1 !important;
 	}
 
-		body.is-loading #intro:not(.hidden) + #header + #nav {
-			-moz-transform: none;
-			-webkit-transform: none;
-			-ms-transform: none;
-			transform: none;
-			opacity: 1;
+/* Header */
+
+	#header {
+		opacity: 1 !important;
+	}
+
+		#header nav li {
+			opacity: 1 !important;
 		}
