@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.nav-button {
+		@apply font-semibold border-y-2 border-transparent hover:border-b-slate-900 active:border-b-slate-900 my-5 transition-all duration-200 delay-[25ms] text-slate-900 dark:text-gray-50 dark:hover:border-b-gray-50 dark:active:border-b-gray-50;
+	}
+}
