@@ -6,28 +6,10 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 <template>
 	<nav
-		class="
-			bg-slate-300 bg-opacity-50
-			dark:bg-slate-900 dark:bg-opacity-100
-			flex
-			justify-between
-			items-center
-			border-b-2 border-b-slate-900
-			px-1
-			pt-[2px]
-		"
+		class="bg-slate-300 bg-opacity-50 dark:bg-slate-900 dark:bg-opacity-100 flex justify-between items-center border-b-2 border-b-slate-900 px-1 pt-[2px]"
 	>
 		<div
-			class="
-				flex
-				justify-around
-				items-center
-				w-full
-				md:w-5/12
-				lg:w-1/3
-				xl:w-1/4
-				2xl:w-1/5
-			"
+			class="flex justify-around items-center w-full md:w-5/12 lg:w-1/3 xl:w-1/4 2xl:w-1/5"
 		>
 			<RouterButton NavButtonLabel="Home" NavTo="/" />
 			<RouterButton NavButtonLabel="About" NavTo="/about" />
@@ -35,16 +17,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 			<RouterButton NavButtonLabel="Resume" NavTo="/about" />
 		</div>
 		<div
-			class="
-				md:flex
-				justify-around
-				items-center
-				hidden
-				md:w-1/2
-				lg:w-5/12
-				xl:w-1/3
-				2xl:w-1/4
-			"
+			class="md:flex justify-around items-center hidden md:w-1/2 lg:w-5/12 xl:w-1/3 2xl:w-1/4"
 		>
 			<div>
 				<DarkModeSelect />
