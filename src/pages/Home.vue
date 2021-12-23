@@ -16,7 +16,7 @@
 		</h4>
 	</div>
 	<div
-		class="bg-gray-200 bg-opacity-80 dark:bg-slate-400 flex flex-col gap-5 justify-center items-start px-4 py-5 sm:px-8 sm:py-9 md:px-12 md:py-12 lg:px-20 lg:py-14 xl:px-32 xl:py-16 2xl:px-48 2xl:py-20"
+		class="bg-gray-100 bg-opacity-60 dark:bg-slate-400 flex flex-col gap-5 justify-center items-start px-4 py-5 sm:px-8 sm:py-9 md:px-12 md:py-12 lg:px-20 lg:py-14 xl:px-32 xl:py-16 2xl:px-48 2xl:py-20"
 	>
 		<p class="text-bold text-slate-900 text-xl">
 			I'm a passionate software developer who strives for excellent code and
