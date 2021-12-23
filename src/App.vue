@@ -3,6 +3,7 @@ import { ref, computed, provide } from "vue";
 import NavBar from "./components/navbar/NavBar.vue";
 
 const darkMode = ref("system");
+
 provide("darkMode", darkMode);
 
 const checkDarkMode = () => {
