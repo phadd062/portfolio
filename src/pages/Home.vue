@@ -2,7 +2,7 @@
 
 <template>
 	<div class="grid grid-cols-4 gap-3 p-3 bg-gray-50">
-		<div class="bg-white p-3 rounded-md col-span-2">1</div>
+		<div class="bg-white p-3 rounded-md col-span-4">1</div>
 		<div class="bg-white p-3 rounded-md">2</div>
 		<div class="bg-white p-3 rounded-md">3</div>
 		<div class="bg-white p-3 rounded-md">4</div>
