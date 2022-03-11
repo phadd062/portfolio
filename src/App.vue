@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { ref, computed, provide } from "vue";
 import NavBar from "./components/navbar/NavBar.vue";
+import Home from "./pages/Home.vue";
+import About from "./pages/About.vue";
 
 const darkMode = ref("system");
 
@@ -35,8 +37,13 @@ const systemTheme = computed(() => {
 <template>
 	<div :class="darkMode !== 'system' ? darkMode : systemTheme">
 		<NavBar />
-		<main>
-			<router-view />
-		</main>
+		<Home />
+		<About />
 	</div>
 </template>
+
+<style>
+* {
+	scroll-margin-top: 2rem;
+}
+</style>
